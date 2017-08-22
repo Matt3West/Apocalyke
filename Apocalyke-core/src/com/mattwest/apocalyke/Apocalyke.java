@@ -28,7 +28,7 @@ public class Apocalyke extends ApplicationAdapter {
 		mapRenderer = new OrthogonalTiledMapRenderer(map, 1f / unitSize);
 		cam = new OrthographicCamera();
 		cam.setToOrtho(false, Gdx.graphics.getWidth()/unitSize, Gdx.graphics.getHeight()/unitSize);
-		gameObject = new ApocalykeGameObject(batch, cam);
+		gameObject = new ApocalykeGameObject(batch, cam, map);
 		Gdx.input.setInputProcessor(gameObject.getEventHandler());
 	}
 
