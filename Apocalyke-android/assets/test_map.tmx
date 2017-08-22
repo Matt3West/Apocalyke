@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="32" height="32" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="basic_tileset" tilewidth="32" tileheight="32" tilecount="3" columns="3">
+  <image source="basic_tileset.png" width="96" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="walkable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="walkable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="walkable" type="bool" value="false"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJyNlUluhTAQBQHf/87JgkhOqarNAvEH08ObWNd1Pb/X/d7X+3m935/t873d1/b7wvXEs1aXtfcZeJ41n+v/PNWDtTnzNOtel3Pc+G+fY304x3o8u6QuaxUOxJf4sQ/nfaIPObuHfsTe9FUzkOd1zbPfOMOz5JdnTD8Th8SBujIeTefmK5u5/qcmyL9pyfAzH1p/7kidWI5M3FED1BzrGY6G1YSNYXWqZRjt2BVfdjd8ijPDynxkPE7PEyP6qPKdWiw8iierad6y+c3frENdml4tG06YlfZOOp9y0Ti03uV5w66y0/bf6xsfJ20VJ9bXfGw5YnM8uCzPqWHzd+lo0kvlb3mksspmNqxYY/Jd5cZpN+LNWWpm0wav2sk0zH51lvtXhlsm1ayml9LZxFFlaeVr4WSeLx3VzpUT5ZHykmnti3/MBxMGkyYrb8i9adA4o45rr8pK84zhy/mIwcSBcWvvEdNfcVDeqCxbl+9oHrEdqe8vfU5an3Cv7K2cYB/qYq/Hnvbb9FzpkHPYO8Hwrhwrr02a+Pv+A/N5CAI=
+  </data>
+ </layer>
+</map>
